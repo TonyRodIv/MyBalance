@@ -32,7 +32,7 @@ const writeGraphic = document.getElementById('writeGraphic');
 const progress = document.getElementsByClassName('progress');
 
 for (let i = 0; i < spending.length; i++) {
-  writeGraphic.innerHTML += `
+    writeGraphic.innerHTML += `
     <div class="progressCont">
       <article class="progress ${spending[i].day}">
       </article>
@@ -41,7 +41,6 @@ for (let i = 0; i < spending.length; i++) {
       </p>
     </div>
   `;
-
-  progress[i].style.height = `${(spending[i].amount)+10}%`;
+    progress[i].style.height = `${(spending[i].amount) + 10}%`;
 }
 
