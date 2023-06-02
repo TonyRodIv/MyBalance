@@ -144,3 +144,9 @@ hr {
 .wed:hover{
     background-color: #B4DFE5;
 }
+
+@media screen and (max-width: 500px) {
+    .progress, #progress{
+        width: 30px;
+    }
+}
